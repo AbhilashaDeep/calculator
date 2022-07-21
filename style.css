@@ -1,0 +1,78 @@
+html body {
+  background-color: hwb(180 96% 2%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(221, 174, 237, 0.883);
+  box-shadow: rgb(37, 37, 15);
+  border-radius: 15px;
+  padding-bottom: 18px;
+  width: 390px;
+}
+
+.display {
+  width: 100%;
+  height: 60px;
+  padding: 40px 0;
+  background: rgb(2, 71, 134) !important;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.buttons {
+  padding: 20px 20px 0 20px;
+}
+
+.row {
+  width: 350px;
+  float: left;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: honeydew;
+}
+
+input[type="button"] {
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: rgb(36, 34, 40);
+  border: none;
+  font-size: 25px;
+  line-height: 30px;
+  border-radius: 20%;
+  font-weight: 700;
+  color: lightcoral;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 340px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: none;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0 25px;
+}
+
+.blue {
+  background-color: tomato;
+  color: white;
+}
